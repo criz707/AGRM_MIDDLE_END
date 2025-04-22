@@ -1,0 +1,88 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.mesas_reserva {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.mesas_reserva .titulo {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+  margin: auto;
+}
+.mesas_reserva .body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10vh auto;
+}
+.mesas_reserva .body .target {
+  width: 30%;
+  height: 50vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  border-radius: 15px;
+}
+.mesas_reserva .body .target .img {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.mesas_reserva .body .target .img img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+.mesas_reserva .body .target .new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 200px;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+.mesas_reserva .body .target .info {
+  width: 90%;
+  height: 20%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin: 5% auto;
+}
+.mesas_reserva .body .target .info p {
+  text-align: center;
+  width: 100%;
+  height: 35%;
+  margin: auto;
+}

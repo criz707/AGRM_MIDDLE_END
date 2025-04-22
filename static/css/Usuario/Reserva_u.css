@@ -1,0 +1,94 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.reserva_u {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body {
+  width: 100%;
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info .data {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info .data p {
+  width: 90%;
+  height: 20%;
+  color: rgb(255, 255, 255);
+}
+.reserva_u .reserva_body .info .boton {
+  width: 40%;
+  height: 15%;
+  background: hsl(194, 100%, 50%);
+  color: white;
+  margin: auto;
+  border-style: none;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .info .boton_rojo {
+  width: 40%;
+  height: 15%;
+  background: rgb(255, 0, 0);
+  color: white;
+  margin: auto;
+  border-style: none;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .image {
+  width: 55%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  color: rgb(255, 255, 255);
+}
+.reserva_u .reserva_body .image img {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .image p {
+  width: 90%;
+  height: 10%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}

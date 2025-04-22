@@ -1,0 +1,4129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:5173/usuario/error_reserva -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/principal/Inicio.css">@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.Container {
+  width: 100vw;
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+.Container .Header_i {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: rgb(53, 53, 53);
+}
+.Container .Header_i .Logo {
+  width: 10%;
+  height: 90%;
+  border-radius: 20px;
+  margin-left: 2%;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+}
+.Container .Header_i .Logo img {
+  width: 100%;
+  height: 100%;
+}
+.Container .Header_i .titulo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  width: 25%;
+  height: 90%;
+  font-size: 40px;
+}
+.Container .Header_i .Nav {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 2%;
+}
+.Container .Header_i .Nav .item {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  font-size: 30px;
+}
+.Container .Body {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(rgb(86, 0, 0) 50%, rgb(27, 27, 27));
+  position: relative;
+}
+.Container .Body .Image {
+  width: 45%;
+  height: 60%;
+  display: flex;
+  border-radius: 20%;
+  flex-direction: row;
+  margin: auto auto auto 10%;
+  overflow: hidden;
+  box-shadow: 30px 30px 0px 10px rgb(27, 27, 27);
+  z-index: 1; /* Elemento más abajo */
+  transform: translateY(25px); /* Ajusta la posición para superponerse */
+}
+.Container .Body .Image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Container .Body .Info {
+  width: 40%;
+  height: 60%;
+  border-radius: 15%;
+  background: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 10% auto auto;
+  overflow: hidden;
+  z-index: 2; /* Elemento más arriba */
+  transform: translateX(-20px); /* Ajusta la posición para superponerse */
+}
+.Container .Body .Info .titulo {
+  width: 100%;
+  height: 10%;
+}
+.Container .Body .Info .info {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+}
+.Container .Body .Info .Register {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  border-radius: 10px;
+  border-style: none;
+  background: rgb(0, 204, 231);
+  color: rgb(255, 255, 255);
+}
+.Container .Footer {
+  width: 100%;
+  height: 25vh;
+  background: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Container .Footer .imagen {
+  width: 7%;
+  height: 100%;
+  margin: auto auto auto 1%;
+}
+.Container .Footer .info {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.Container .Footer .info p {
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  border-bottom: 2px solid #eee;
+}
+.Container .Footer .Social {
+  margin: auto;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.Container .Footer .Social p {
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.Container .Footer .Social .item {
+  width: 15%;
+  height: 30%;
+  margin: auto;
+}
+
+                                      
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Inicio_sesion/Inicio_sesion.css">@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+.inicio {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(97, 97, 97), rgb(36, 36, 36));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-family: "Monserrat", Italy;
+}
+.inicio .header {
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #eee;
+}
+.inicio .header .volver {
+  width: 5%;
+  height: 85%;
+  color: white;
+  margin: auto 1%;
+  transition: transform 0.2s ease-out;
+  filter: invert(1);
+}
+.inicio .header .volver img {
+  width: 100%;
+  height: 100%;
+}
+.inicio .header .volver:hover {
+  /*hacer aniamcion aqui*/
+  transform: scale(1.2);
+}
+.inicio .header .titulo {
+  display: flex;
+  width: 25%;
+  margin: auto 1%;
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.inicio .imagen {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.inicio .imagen .title {
+  display: flex;
+  border-bottom: 2px solid red;
+  margin: auto;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  height: auto;
+}
+.inicio .imagen .logo {
+  width: 75%;
+  height: 65%;
+  margin: auto;
+  border-radius: 40px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+}
+.inicio .imagen .logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.inicio .sesion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+}
+.inicio .sesion p {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin: 1vh auto;
+  width: 80%;
+  height: 10vh;
+  vertical-align: middle;
+}
+.inicio .sesion input {
+  margin: 1vh auto;
+  width: 80%;
+  height: 7vh;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.inicio .sesion button {
+  width: 70%;
+  background: linear-gradient(to right, Black, rgb(97, 97, 97));
+  border: none;
+  color: white;
+  height: 7vh;
+  box-shadow: 10px;
+  margin: 3vh auto;
+  border-radius: 10px;
+  transition: transform 0.2s ease-out;
+}
+.inicio .sesion button:hover {
+  box-shadow: 0 10px 10px rgba(140, 140, 140, 0.6), 0 10px 10px rgba(255, 255, 255, 0.14);
+  transform: scale(1.09);
+}
+.inicio .sesion .enlace {
+  margin-left: 5%;
+  width: 45%;
+  height: 10%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.inicio .sesion .enlace:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Registro/Registro.css">@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+.inicio {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(97, 97, 97), rgb(36, 36, 36));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-family: "Monserrat", Italy;
+}
+.inicio .header {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inicio .header .volver {
+  width: 5%;
+  height: 85%;
+  color: white;
+  margin: auto 1%;
+  transition: transform 0.2s ease-out;
+  filter: invert(1);
+}
+.inicio .header .volver img {
+  width: 100%;
+  height: 100%;
+}
+.inicio .header .volver:hover {
+  /*hacer aniamcion aqui*/
+  transform: scale(1.2);
+}
+.inicio .imagen {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.inicio .imagen .title {
+  display: flex;
+  border-bottom: 2px solid red;
+  margin: auto;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  height: auto;
+}
+.inicio .imagen .logo {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  background: linear-gradient(70deg, rgb(255, 61, 61), rgb(255, 168, 87));
+  -webkit-background: linear-gradient(70deg, rgb(255, 61, 61), rgb(255, 168, 87));
+  -moz-background: linear-gradient(70deg, rgb(255, 61, 61), rgb(255, 168, 87));
+  border-radius: 40px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+.inicio .imagen .logo img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+.inicio .sesion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+}
+.inicio .sesion p {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin: 1vh auto;
+  width: 80%;
+  height: 10vh;
+  vertical-align: middle;
+}
+.inicio .sesion input {
+  margin: 1vh auto;
+  width: 80%;
+  height: 7vh;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.inicio .sesion button {
+  width: 70%;
+  background: linear-gradient(to right, Black, rgb(97, 97, 97));
+  border: none;
+  color: white;
+  height: 7vh;
+  box-shadow: 10px;
+  margin: 3vh auto;
+  border-radius: 10px;
+  transition: transform 0.2s ease-out;
+}
+.inicio .sesion button:hover {
+  box-shadow: 0 10px 10px rgba(140, 140, 140, 0.6), 0 10px 10px rgba(255, 255, 255, 0.14);
+  transform: scale(1.09);
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Components/Volver/Volver.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.header_volver {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_volver .volver {
+  width: 5%;
+  height: 85%;
+  color: white;
+  margin: auto 1%;
+  transition: transform 0.2s ease-out;
+  filter: invert(1);
+}
+.header_volver .volver img {
+  width: 100%;
+  height: 100%;
+}
+.header_volver .volver:hover {
+  /*hacer aniamcion aqui*/
+  transform: scale(1.2);
+}
+.header_volver .titulo {
+  display: flex;
+  width: 25%;
+  margin: auto 1%;
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+                                      
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Recuperar_c/Recuperar_c.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgba(0, 31, 189, 0.656), rgb(0, 188, 221));
+  width: 98vw;
+  height: auto;
+}
+.Container .Header {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(53, 53, 53);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.Container .Header .Volver {
+  width: 5%;
+  height: 85%;
+  color: white;
+  margin: auto 1%;
+  transition: transform 0.2s ease-out;
+  filter: invert(1);
+}
+.Container .Header .Volver img {
+  width: 100%;
+  height: 100%;
+}
+.Container .Header .Volver:hover {
+  /*hacer aniamcion aqui*/
+  transform: scale(1.2);
+}
+.Container .Form {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #eee;
+  color: white;
+  margin: 10vh auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px 1px rgba(255, 255, 255, 0.278);
+}
+.Container .Form label {
+  width: 90%;
+  height: 10vh;
+  font-size: 25px;
+}
+.Container .Form input {
+  width: 80%;
+  height: 10vh;
+  border-radius: 15px;
+  border-style: none;
+  font-size: 35px;
+}
+.Container .Form .Enviar {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(90deg, black, rgb(97, 97, 97));
+  justify-content: center;
+  color: white;
+  font-size: 21px;
+  border-style: none;
+  border-radius: 15px;
+}
+.Container .Imagen {
+  width: 35%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  filter: invert(20%) sepia(100%) saturate(500%) hue-rotate(220deg);
+}
+.Container .Imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+                                           
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Recuperar_e/Recuperar_e.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.Container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgba(0, 31, 189, 0.656), rgb(0, 188, 221));
+  width: 98vw;
+  height: auto;
+}
+.Container .Imagen {
+  margin: 10vh;
+  width: 50%;
+  height: 50%;
+  margin: 10vh auto;
+  opacity: 80%;
+}
+.Container .Imagen img {
+  width: 100%;
+  height: 100%;
+}
+.Container .texto {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin: 5vh auto;
+}
+.Container .boton {
+  margin: 5vh auto;
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  background: rgb(53, 53, 53);
+  border: 1px solid #eee;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+                                           
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/Inicio_a/Inicio_a.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.inicio_a {
+  width: calc(100vw - 17px);
+  height: 100vh;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(255, 255, 255));
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inicio_a .header_inicio {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.inicio_a .header_inicio .target {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 90%;
+  border-radius: 15px;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(37, 37, 37));
+  margin: auto 1vw auto auto;
+}
+.inicio_a .header_inicio .target h5 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 95%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.inicio_a .header_inicio .target img {
+  width: 20%;
+  height: 70%;
+  margin: auto;
+}
+.inicio_a .body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+}
+.inicio_a .body .target {
+  width: 25%;
+  height: 80vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(rgb(255, 255, 255), rgb(37, 37, 37));
+  border-radius: 15px;
+}
+.inicio_a .body .target img {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
+.inicio_a .body .target h3 {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Crud/Crud.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc(100vw - 17px);
+  height: auto;
+  background: linear-gradient(#6360FF, #00C2FF);
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 100%;
+  height: auto;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .body .target {
+  width: 25%;
+  height: 70vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.container .body .target img {
+  width: 90%;
+  height: 70%;
+}
+.container .body .target h3 {
+  width: 70%;
+  height: 10%;
+  margin: auto;
+  border-bottom: 1px solid #eee;
+}
+.container .body .target button {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  border: 1px solid #eee;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  background: linear-gradient(#6360FF, rgb(46, 23, 255));
+  border-style: none;
+  font-size: 15px;
+}
+
+                                    
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Components/Searchbar/Searchbar.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.searchbar {
+  width: calc(90vw - 17px);
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  margin: 5vh auto;
+}
+.searchbar input {
+  width: 70%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  color: rgb(53, 53, 53);
+  border: none;
+  border-radius: 15px;
+  margin: auto;
+}
+.searchbar button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: auto;
+}
+
+                                         
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Admin_m/Admin_m.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 95%;
+  min-height: auto;
+  height: auto;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .body .target {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25.5%;
+  height: 70vh;
+  border-radius: 15px;
+  background: rgb(53, 53, 53);
+  color: white;
+  margin: 5% auto;
+  text-decoration: none;
+}
+.container .body .target img {
+  width: 80%;
+  height: 55%;
+}
+.container .body .target h3 {
+  width: 90%;
+  height: 10%;
+}
+
+                                       
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Actualizado_a/Actualizado_a.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Credenciales_a/Credenciales_a.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                              
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Eliminado/Eliminado.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                         
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Editar_a/Editar_a.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 label {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+.container .body .datos .p2 input {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_admin/Perfil_m/Perfil_a.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 p {
+  color: white;
+  width: 90%;
+  height: 10%;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_mesa/Actualizado_m/Actualizado_m.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(1, 0, 50));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_mesa/Admin_menu_m/Admin_menu_m.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(1, 0, 50));
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 95%;
+  min-height: auto;
+  height: auto;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .body .target {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25.5%;
+  height: 70vh;
+  border-radius: 15px;
+  background: rgb(53, 53, 53);
+  color: white;
+  margin: 5% auto;
+  text-decoration: none;
+}
+.container .body .target img {
+  width: 80%;
+  height: 55%;
+}
+.container .body .target h3 {
+  width: 90%;
+  height: 10%;
+}
+
+                                            
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_mesa/Editar_m/Editar_m.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(53, 53, 53), rgb(0, 194, 255));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 label {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+.container .body .datos .p2 input {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(53, 53, 53);
+  border-radius: 15px;
+  border-style: none;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_mesa/Eliminado/Eliminado.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(53, 53, 53), rgb(0, 194, 255));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                         
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_mesa/Perfil_m/Perfil_m.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(53, 53, 53), rgb(0, 194, 255));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 p {
+  color: white;
+  width: 90%;
+  height: 10%;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Admin_menu_u/Admin_menu_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 95%;
+  min-height: auto;
+  height: auto;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .body .target {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25.5%;
+  height: 70vh;
+  border-radius: 15px;
+  background: rgb(29, 29, 29);
+  color: white;
+  margin: 5% auto;
+  text-decoration: none;
+}
+.container .body .target img {
+  width: 80%;
+  height: 55%;
+}
+.container .body .target h3 {
+  width: 90%;
+  height: 10%;
+}
+
+                                            
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Perfil_u/Perfil_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 p {
+  color: white;
+  width: 90%;
+  height: 10%;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Editar_u/Editar_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 label {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+.container .body .datos .p2 input {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Actualizado_u/Actualizado_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Credenciales_u/Credenciales_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                              
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_usuario/Eliminado_u/Eliminado_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                           
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_recepcionista/Admin_menu_r/Admin_menu_r.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(20, 20, 20));
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 95%;
+  min-height: auto;
+  height: auto;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .body .target {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25.5%;
+  height: 70vh;
+  border-radius: 15px;
+  background: rgb(20, 20, 20);
+  color: white;
+  margin: 5% auto;
+  text-decoration: none;
+}
+.container .body .target img {
+  width: 80%;
+  height: 55%;
+}
+.container .body .target h3 {
+  width: 90%;
+  height: 10%;
+}
+
+                                            
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_recepcionista/Editar_r/Editar_r.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(53, 53, 53));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 label {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+.container .body .datos .p2 input {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_recepcionista/Actualizado_r/Actualizado_r.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(53, 53, 53));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_recepcionista/Credenciales_r/Credenciales_r.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(53, 53, 53));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                              
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Admin_menu_g/Admin_menu_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 95%;
+  min-height: auto;
+  height: auto;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .body .target {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25.5%;
+  height: 70vh;
+  border-radius: 15px;
+  background: rgb(53, 53, 53);
+  color: white;
+  margin: 5% auto;
+  text-decoration: none;
+}
+.container .body .target img {
+  width: 80%;
+  height: 55%;
+}
+.container .body .target h3 {
+  width: 90%;
+  height: 10%;
+}
+
+                                            
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Perfil_g/Perfil_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 p {
+  color: white;
+  width: 90%;
+  height: 10%;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Editar_g/Editar_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 label {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+.container .body .datos .p2 input {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                        
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Actualizado_g/Actualizado_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Credenciales_g/Credenciales_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                              
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/estilos_gerente/Eliminado_g/Eliminado_g.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(241, 72%, 65%), hsl(194, 100%, 50%));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  margin: auto;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+                                           
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/Editar_perfil/Editar_perfil.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.editar_perfil {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(255, 255, 255));
+}
+.editar_perfil .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+}
+.editar_perfil .body .target {
+  width: 70%;
+  height: 80%;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(26, 26, 26));
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.editar_perfil .body .target .datos {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-right: 1px solid #eee;
+  margin: auto;
+}
+.editar_perfil .body .target .datos p {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.editar_perfil .body .target .datos button {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+  border-style: none;
+  background: hsl(241, 72%, 65%);
+  color: white;
+}
+.editar_perfil .body .target .imagen {
+  width: 30%;
+  height: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.editar_perfil .body .target .imagen img {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/Editar_datos_perfil/Editar_datos_perfil.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.editar_perfil {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(255, 255, 255));
+}
+.editar_perfil .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.editar_perfil .body .target {
+  width: 80%;
+  height: 100vh;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(26, 26, 26));
+  margin: 10vh auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.editar_perfil .body .target .datos {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.editar_perfil .body .target .datos label {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 8%;
+  border-bottom: 1px solid #eee;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.editar_perfil .body .target .datos input {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 8%;
+  border-radius: 15px;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-style: none;
+}
+.editar_perfil .body .target .datos button {
+  width: 90%;
+  height: 8%;
+  border-radius: 15px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border-style: none;
+  background: hsl(241, 72%, 65%);
+  color: white;
+  margin: 10% auto;
+}
+.editar_perfil .body .target .imagen {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.editar_perfil .body .target .imagen img {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+}
+.editar_perfil .body .target .imagen button {
+  width: 90%;
+  height: 10%;
+  margin: auto auto 5% auto;
+  border-radius: 15px;
+  border-style: none;
+  background: rgb(255, 0, 0);
+  color: white;
+}
+
+                                                   
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/administrador/Alerta_exito.jsx/Alerta_exito.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.editar_perfil {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(255, 255, 255));
+}
+.editar_perfil .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.editar_perfil .body .target {
+  width: 80%;
+  height: 100vh;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(26, 26, 26));
+  margin: 10vh auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.editar_perfil .body .target img {
+  width: 50%;
+  height: 70%;
+  margin: auto;
+}
+.editar_perfil .body .target p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 10%;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+                                            
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/Navbar/Navbar.css">@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+@font-face {
+  font-family: "Inter";
+  src: url("/path-to-font/inter.woff2") format("woff2"), url("/path-to-font/inter.woff") format("woff");
+  font-weight: 400; /* O ajusta según las variantes disponibles */
+  font-style: normal;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  width: 33%;
+  background: linear-gradient(rgb(97, 97, 97), rgb(36, 36, 36));
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+}
+.Navbar .item {
+  width: 33%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: background-color 1s, color 1s;
+}
+.Navbar .item img {
+  width: 40%;
+  height: 60%;
+  filter: invert(1);
+  margin: auto;
+}
+.Navbar .item p {
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  height: 10%;
+  margin: auto;
+}
+.Navbar .item:hover {
+  background: rgba(255, 255, 255, 0.896);
+  color: rgb(36, 36, 36);
+}
+.Navbar .item:hover img {
+  filter: none;
+}
+.Navbar .item:hover p {
+  color: rgb(36, 36, 36);
+}
+
+                                      
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Home_u/Home_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.home_u {
+  width: calc(100vw - 17px);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+}
+.home_u .body_home {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.home_u .body_home .contenido {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.home_u .body_home .contenido .titulo {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  font-size: 30px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.home_u .body_home .contenido .mini_target {
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 1s, color 1s;
+}
+.home_u .body_home .contenido .mini_target img {
+  width: 70%;
+  height: 80%;
+  margin: auto;
+}
+.home_u .body_home .contenido .mini_target .info {
+  width: 100%;
+  height: 10%;
+  color: white;
+  margin: auto;
+}
+.home_u .body_home .contenido .mini_target:hover {
+  background: rgb(255, 255, 255);
+}
+.home_u .body_home .contenido .mini_target:hover img {
+  filter: brightness(0.5) contrast(1.2);
+}
+.home_u .body_home .contenido .mini_target:hover .info {
+  color: rgb(34, 34, 34);
+}
+.home_u .body_home .imagen {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home_u .body_home .imagen img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  border-radius: 75px;
+}
+
+                                      
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Mesas_reserva/Mesas_reserva.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.mesas_reserva {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.mesas_reserva .titulo {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+  margin: auto;
+}
+.mesas_reserva .body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10vh auto;
+}
+.mesas_reserva .body .target {
+  width: 30%;
+  height: 50vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  border-radius: 15px;
+}
+.mesas_reserva .body .target .img {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.mesas_reserva .body .target .img img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+.mesas_reserva .body .target .new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 200px;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+.mesas_reserva .body .target .info {
+  width: 90%;
+  height: 20%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin: 5% auto;
+}
+.mesas_reserva .body .target .info p {
+  text-align: center;
+  width: 100%;
+  height: 35%;
+  margin: auto;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Reserva_u/Reserva_u.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.reserva_u {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body {
+  width: 100%;
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info .data {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.reserva_u .reserva_body .info .data p {
+  width: 90%;
+  height: 20%;
+  color: rgb(255, 255, 255);
+}
+.reserva_u .reserva_body .info .boton {
+  width: 40%;
+  height: 15%;
+  background: hsl(194, 100%, 50%);
+  color: white;
+  margin: auto;
+  border-style: none;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .info .boton_rojo {
+  width: 40%;
+  height: 15%;
+  background: rgb(255, 0, 0);
+  color: white;
+  margin: auto;
+  border-style: none;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .image {
+  width: 55%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  color: rgb(255, 255, 255);
+}
+.reserva_u .reserva_body .image img {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  border-radius: 15px;
+}
+.reserva_u .reserva_body .image p {
+  width: 90%;
+  height: 10%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+                                         
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Cambio_reserva/Cambio_reserva.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.cambio_reserva {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.cambio_reserva .body {
+  width: 100%;
+  height: 90vh;
+  margin: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.cambio_reserva .body .horario {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+.cambio_reserva .body .horario .titulo {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.cambio_reserva .body .horario .plazas {
+  width: 90%;
+  height: 30vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgb(86, 0, 0);
+  border-radius: 15px;
+}
+.cambio_reserva .body .horario .plazas .circle {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  background: rgb(255, 255, 255);
+  margin: 5vh auto;
+}
+.cambio_reserva .body .horario .plazas .titulo {
+  width: 70%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+.cambio_reserva .body .horario .plazas select {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: auto;
+}
+.cambio_reserva .body .horario .plazas select select {
+  border: 2px solid rgb(97, 97, 97);
+}
+.cambio_reserva .body .horario .plazas select .ok_option {
+  color: hsl(194, 100%, 50%);
+}
+.cambio_reserva .body .horario .plazas select .no_option {
+  color: rgb(255, 0, 0);
+}
+.cambio_reserva .body .horario .boton {
+  width: 50%;
+  height: 10%;
+  background: rgb(86, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-style: none;
+}
+.cambio_reserva .body .imagen {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.cambio_reserva .body .imagen img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+                                              
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Error_reserva/Error_reserva.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.error {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+}
+.error .body {
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.error .body .error {
+  width: 50%;
+  height: 90%;
+  background: none;
+}
+.error .body .error .erno {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+}
+.error .body .error .hora {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64, 255, 50);
+}
+.error .body .error .boton {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-style: none;
+  border-radius: 15px;
+}
+.error .body .imagen {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+}
+.error .body .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+                                             
+</style><style type="text/css" data-vite-dev-id="C:/Users/TOSHIBA/Pictures/sena 2024/tecnologo software/tecnica/trimestre 3/proyecto tecnico/Prototipo/agmr/src/Styles/Desktop/usuario/Reserva_cancelada/Reserva_cancelada.css">
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/*Fuentes*/
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+/*Fente: font-family: "Inter", sans-serif;*/
+.reserva_cancelada {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+}
+
+                                                 
+</style></head>
+  <body>
+    <div id="root"><div class="error"><div class="header_volver"><a class="volver"><img src="./Vite + React_files/flecha.png" alt=""></a></div><div class="body"><div class="error"><p class="erno">Error al realizar la reserva</p><p class="hora">2:00 pm - 4:00 p.m</p><button class="boton">Intente nuevamente</button></div><div class="imagen"><img src="./Vite + React_files/fallout_cansado.png" alt=""></div></div></div></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+</body></html>

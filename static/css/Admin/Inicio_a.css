@@ -1,0 +1,84 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.inicio_a {
+  width: calc(100vw - 17px);
+  height: 100vh;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(255, 255, 255));
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inicio_a .header_inicio {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.inicio_a .header_inicio .target {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 90%;
+  border-radius: 15px;
+  background: linear-gradient(hsl(241, 72%, 65%), rgb(37, 37, 37));
+  margin: auto 1vw auto auto;
+}
+.inicio_a .header_inicio .target h5 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 95%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.inicio_a .header_inicio .target img {
+  width: 20%;
+  height: 70%;
+  margin: auto;
+}
+.inicio_a .body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+}
+.inicio_a .body .target {
+  width: 25%;
+  height: 80vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(rgb(255, 255, 255), rgb(37, 37, 37));
+  border-radius: 15px;
+}
+.inicio_a .body .target img {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
+.inicio_a .body .target h3 {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}

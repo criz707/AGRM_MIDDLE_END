@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Admin/Inicio_a.css') }}">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="inicio_a">
+        <div class="header_inicio" onClick="goToEditar">
+            <div class="target">
+            <h5>Jhon Travolta</h5>
+            <img src="{{url_for("static",filename="img/Iconos_perfil/admin.png")}} " alt="" />
+            </div>
+        </div>
+
+        <div class="body">
+
+        <div onClick="window.location.href='{{ url_for('admin_bp.crud') }}'" class="target" >
+            <img src="{{ url_for('static', filename='img/Iconos_perfil/salida.png') }}" alt="" />
+            <h3>Editar perfiles</h3>
+        </div>
+
+        <a class="target" href="{{ url_for('admin_bp.cerrar_sesion') }}">
+            <img src="{{ url_for('static', filename='img/Iconos_perfil/lapiz.png')}}" alt="" />
+            <h3>Cerrar seison</h3>
+        </a>
+        </div>
+    </div>
+    
+</body>
+</html>

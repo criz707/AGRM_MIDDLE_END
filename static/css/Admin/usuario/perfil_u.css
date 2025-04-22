@@ -1,0 +1,109 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.container {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(86, 0, 0), rgb(255, 0, 0));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body {
+  margin: 10vh auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(53, 53, 53));
+  border-radius: 15px;
+}
+.container .body .datos .p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+.container .body .datos .p1 p {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container .body .datos .p1 img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.container .body .datos .p2 {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .body .datos .p2 p {
+  color: white;
+  width: 90%;
+  height: 10%;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+.container .body .boton {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(hsl(194, 100%, 50%), rgb(0, 82, 93));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .body .boton_r {
+  width: 35%;
+  height: 15vh;
+  margin: 5vh auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 15px;
+}

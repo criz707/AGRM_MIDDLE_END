@@ -1,0 +1,65 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc(100vw - 17px);
+  min-width: calc(100vw - 17px);
+  height: auto;
+  background: linear-gradient(#6360FF, #00C2FF) !important;
+  font-family: "Inter", sans-serif;
+}
+.container .body {
+  width: 100%;
+  height: auto;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .body .target {
+  width: 25%;
+  height: 70vh;
+  margin: 10vh auto;
+  background: rgb(53, 53, 53);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.container .body .target img {
+  width: 70%;
+  height: 50%;
+}
+.container .body .target h3 {
+  width: 70%;
+  height: 10%;
+  margin: auto;
+  border-bottom: 1px solid #eee;
+}
+.container .body .target button {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  border: 1px solid #eee;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  background: linear-gradient(#6360FF, rgb(46, 23, 255));
+  border-style: none;
+  font-size: 15px;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0;
+  height: 0;
+
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+@font-face {
+  font-family: "Inter";
+  src: url("/path-to-font/inter.woff2") format("woff2"), url("/path-to-font/inter.woff") format("woff");
+  font-weight: 400; /* O ajusta según las variantes disponibles */
+  font-style: normal;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  width: 33%;
+  background: linear-gradient(rgb(97, 97, 97), rgb(36, 36, 36));
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+}
+.Navbar .item {
+  width: 33%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: background-color 1s, color 1s;
+}
+.Navbar .item img {
+  width: 40%;
+  height: 60%;
+  filter: invert(1);
+  margin: auto;
+}
+.Navbar .item p {
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  height: 10%;
+  margin: auto;
+}
+.Navbar .item:hover {
+  background: rgba(255, 255, 255, 0.896);
+  color: rgb(36, 36, 36);}
+
+.Navbar .item:hover img {
+  filter: none;}
+.Navbar .item:hover p {
+  color: rgb(36, 36, 36);}

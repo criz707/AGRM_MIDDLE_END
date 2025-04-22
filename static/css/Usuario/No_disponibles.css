@@ -1,0 +1,83 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.no_disponibles {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+}
+.no_disponibles .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+}
+.no_disponibles .body .info {
+  width: 35%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.no_disponibles .body .info li {
+  width: 80%;
+  height: 10%;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+.no_disponibles .body .info h3 {
+  width: 80%;
+  height: 10%;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+.no_disponibles .body .info .boton {
+  width: 50%;
+  height: 15%;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 0, 0);
+  margin: auto;
+  border-style: none;
+  font-size: 20px;
+}
+.no_disponibles .body .imagen {
+  position: relative;
+  width: 55%;
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+.no_disponibles .body .imagen .debajo {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  filter: grayscale(100%);
+}
+.no_disponibles .body .imagen .encima {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  top: 0%;
+  left: 0%;
+}

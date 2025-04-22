@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon"  type="image/x-icon" href="../img/logotipo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/logo.png') }}">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Registro.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Volver.css') }}">
+    <title>Registro</title>
+</head>
+<body>
+
+    <div class = "inicio">
+
+        
+        <div class="header_volver">
+            <a class="volver" onClick="window.history.back()">
+                <img src="{{ url_for('static', filename='img/flecha.png') }}" alt=""/>
+            </a>
+        </div>
+
+        
+        <form class="sesion" onSubmit="{{url_for('user_bp.registro')}}" method="POST">
+            
+            <p>ROL:</p>
+            <select type="text" placeholder="nombre" name="ROL"/>
+                <option value="usuario">usuario</option>
+                <option value="administrador" >administrador</option>
+            </select>
+            <p>Nombre:</p>
+            <input type="text" placeholder="nombre" name="NOMBRE"/>
+
+            <p>Correo:</p>
+            <input type="text" placeholder="correo" name="CORREO"/>
+
+            <p>Contraseña:</p>
+            <input type="password" placeholder="contrasena" name="CONTRASENA"/>
+
+            
+            <button type="submit">
+                Registrarse
+            </button>
+          
+        </form>
+
+        <div class="imagen">
+            <div class="title">
+                !Bienvenido usuario nuevo! 😃
+            </div>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='img/logo.png') }}" alt="" />
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.searchbar {
+  width: calc(90vw - 17px);
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  margin: 5vh auto;
+}
+.searchbar input {
+  width: 70%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  color: rgb(53, 53, 53);
+  border: none;
+  border-radius: 15px;
+  margin: auto;
+}
+.searchbar button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(rgb(255, 0, 0), rgb(86, 0, 0));
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: auto;
+}

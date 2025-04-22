@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/Navbar.css">
+    <link rel="stylesheet" href="../../css/Usuario/Mesas_disponibles.css">
+    <link rel="stylesheet" href="../../css/Usuario/Searchbar.css">
+</head>
+<body>
+
+    <div class="mesas_disponibles">
+    <!--Navbar--> 
+
+    <div class="Navbar" >
+        <div class="item" onClick={goToAjustes}>
+            
+            <img src="../../img/configuracion.png" alt="casa" class="" />
+            <p>Ajustes</p>
+        </div>
+        <div class="item" onClick={goToInicio}>
+
+            <img src="../../img/casas.png" alt="casa" class="" />
+            <p>Inicio</p>
+        </div>
+
+        <div class="item" onClick={goToNotificaciones}>
+            <img src="../../img/notificacion.png" alt="casa" class="" />
+            <p>Notificaciones</p>
+        </div>
+
+      </div>
+
+
+
+
+        <!-- Search bar -->
+        <div class="searchbar">
+      
+            <input type="text" placeholder='Buscar'/>
+            <button>
+                Buscar
+            </button>
+
+        </div>
+
+
+        <!--Body y targetas-->
+        <div class="body">
+
+            <div class="target" onClick={goToNoDisponibles}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+                <img class="cartel" src="../../img/cerrado.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+
+            <div class="target" onClick={goToReserva}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+            <div class="target" onClick={goToReserva}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+            <div class="target" onClick={goToReserva}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+            <div class="target" onClick={goToReserva}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+            <div class="target" onClick={goToReserva}>
+
+                <img class="imagen" src="../../img/fondo_mesa.png" alt="" />
+
+                <p class="titulo">Mesa 1</p>
+
+                <button class="boton">
+                    Ver disponibilidad
+                </button>
+            </div>
+
+            </div>
+
+    </div>
+    
+</body>
+</html>

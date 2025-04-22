@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(rgb(97, 97, 97), rgb(36, 36, 36));
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 10vh;
+}
+.container .body {
+  width: 90%;
+  height: auto;
+  margin: 10vh auto;
+}
+.container .body .notificacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 11vh;
+  margin: 5vh auto;
+  background-image: url("../../img/liston1.png");
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  text-decoration: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.container .body .notificacion img {
+  width: 5%;
+  height: 90%;
+  filter: invert(1);
+  margin: auto 1vw;
+}
+.container .body .notificacion .asunto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  height: 90%;
+  text-align: center;
+  color: #eee;
+  margin: auto 1vw;
+}
+.container .body .notificacion .descripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  height: 90%;
+  text-align: center;
+  color: #eee;
+  margin: auto 1vw;
+}

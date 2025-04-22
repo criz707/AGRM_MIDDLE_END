@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.ajustes_u {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+}
+.ajustes_u .body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.ajustes_u .body .menu {
+  width: 30%;
+  height: 100vh;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  margin: 0% auto;
+  margin-bottom: 10vh;
+  background-image: url(https://res.cloudinary.com/dqudwfwad/image/upload/v1733792493/liston.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.ajustes_u .body .menu p {
+  width: 100%;
+  height: 25%;
+  margin: 0% auto;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}

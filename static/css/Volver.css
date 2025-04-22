@@ -1,0 +1,45 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+/*Variables usuario*/
+.header_volver {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_volver .volver {
+  width: 5%;
+  height: 85%;
+  color: white;
+  margin: auto 1%;
+  transition: transform 0.2s ease-out;
+  filter: invert(1);
+}
+.header_volver .volver img {
+  width: 100%;
+  height: 100%;
+}
+.header_volver .volver:hover {
+  /*hacer aniamcion aqui*/
+  transform: scale(1.2);
+}
+.header_volver .titulo {
+  display: flex;
+  width: 25%;
+  margin: auto 1%;
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}

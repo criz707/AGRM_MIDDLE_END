@@ -1,0 +1,121 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.cambio_reserva {
+  width: calc(100vw - 17px);
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.cambio_reserva .body {
+  width: 100%;
+  height: 90vh;
+  margin: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.cambio_reserva .body .horario {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+.cambio_reserva .body .horario .titulo {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.cambio_reserva .body .horario .plazas {
+  width: 90%;
+  height: 30vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgb(86, 0, 0);
+  border-radius: 15px;
+}
+.cambio_reserva .body .horario .plazas .circle {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  background: rgb(255, 255, 255);
+  margin: 5vh auto;
+}
+.cambio_reserva .body .horario .plazas .titulo {
+  width: 70%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+.cambio_reserva .body .horario .plazas select {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: auto;
+}
+.cambio_reserva .body .horario .plazas select select {
+  border: 2px solid rgb(97, 97, 97);
+}
+.cambio_reserva .body .horario .plazas select .ok_option {
+  color: hsl(194, 100%, 50%);
+}
+.cambio_reserva .body .horario .plazas select .no_option {
+  color: rgb(255, 0, 0);
+}
+.cambio_reserva .body .horario .boton {
+  width: 50%;
+  height: 10%;
+  background: rgb(86, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-style: none;
+}
+.cambio_reserva .body .imagen {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.cambio_reserva .body .imagen img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 15px;
+}

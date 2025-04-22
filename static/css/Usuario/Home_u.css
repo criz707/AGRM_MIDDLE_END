@@ -1,0 +1,101 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.home_u {
+  width: calc(100vw - 17px);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(rgb(255, 0, 0), rgb(34, 34, 34));
+}
+.home_u .body_home {
+  width: 90%;
+  height: 90vh;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.home_u .body_home .contenido {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.home_u .body_home .contenido .titulo {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  font-size: 30px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.home_u .body_home .contenido .mini_target {
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 1s, color 1s;
+}
+.home_u .body_home .contenido .mini_target img {
+  width: 70%;
+  height: 80%;
+  margin: auto;
+}
+.home_u .body_home .contenido .mini_target .info {
+  width: 100%;
+  height: 10%;
+  color: white;
+  margin: auto;
+}
+.home_u .body_home .contenido .mini_target:hover {
+  background: rgb(255, 255, 255);
+}
+.home_u .body_home .contenido .mini_target:hover img {
+  filter: brightness(0.5) contrast(1.2);
+}
+.home_u .body_home .contenido .mini_target:hover .info {
+  color: rgb(34, 34, 34);
+}
+.home_u .body_home .imagen {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home_u .body_home .imagen img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  border-radius: 75px;
+}

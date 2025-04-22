@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/Usuario/Cambio_reserva.css">
+    <link rel="stylesheet" href="../../css/Volver.css">
+    <title>Cambio reserva</title>
+</head>
+<body>
+
+
+    <div class="cambio_reserva">
+
+
+        <!--Volver-->
+        <div class="header_volver">
+            <a class="volver" href="../pantallas/index.html">
+                <img src="../../img/flecha.png" alt=""/>
+            </a>
+        </div>
+
+        <div class="body">
+            <div class="horario">
+
+                <div class="titulo" onClick={goToPenalizacion}>Mesa 4</div>
+                <div class="plazas">
+                    <div class="circle"></div>
+                    <div class="titulo" >Plazas disponibles</div>
+
+                    <select name="" id="">
+                        <option class='ok_option' value="7-9">7 pm - 9 pm</option>
+                        <option class='ok_option' value="7-9">7 pm - 9 pm</option>
+                        <option class='ok_option'value="7-9">7 pm - 9 pm</option>
+                        <option class='ok_option' value="7-9">7 pm - 9 pm</option>
+                        <option class='no_option' value="7-9">7 pm - 9 pm</option>
+                    </select>
+                </div>
+                <button class="boton" onClick={goToReservaExistosa}>
+                Reservar
+                </button>
+
+            </div>
+
+            
+
+            <div class="imagen">
+            <img src="../../img/fondo_mesa.png" alt="" onClick={goToReservaFallida} />
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

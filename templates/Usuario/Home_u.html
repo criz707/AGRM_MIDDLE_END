@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Usuario/Home_u.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+    <title>Home usuario</title>
+</head>
+<body>
+
+    
+
+  <div class="home_u">
+      <!--Navbar--> 
+      <div class="Navbar" >
+
+        <div class="item" onClick={goToAjustes}>
+            <img src="{{url_for("static",filename="img/configuracion.png")}}" alt="casa" class="" />
+            <p>Ajustes</p>
+        </div>
+        <div class="item" onClick={goToInicio}>
+
+            <img src="{{url_for("static",filename="img/casas.png")}}" alt="casa" class="" />
+            <p>Inicio</p>
+        </div>
+
+        <div class="item" onClick={goToNotificaciones}>
+            <img src="{{url_for("static",filename="img/notificacion.png")}}" alt="casa" class="" />
+            <p>Notificaciones</p>
+        </div>
+
+      </div>
+  
+        <div class="body_home">
+          <div class="contenido">
+  
+            <p class="titulo">¡Bienvenido de nuevo Dick Shawns!</p>
+  
+              <div class="mini_target" onClick={goToReservas}>
+  
+                  <img src="{{url_for("static",filename="img/Iconos_perfil/mesa.png")}}" alt="" />
+                  <p class="info">Mis reservas</p>
+  
+              </div>
+            
+          </div>
+  
+  
+          <div class="imagen">
+            <img src="{{url_for("static",filename="img/usuario.jpg")}}" alt="" />
+          </div>
+        </div>
+  
+      </div>
+</body>
+</html>

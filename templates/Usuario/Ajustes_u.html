@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ajustes usuario</title>
+    <link rel="stylesheet" href="../../../css/Usuario/Ajustes_u.css">
+    <link rel="stylesheet" href="../../../css/Navbar.css">
+</head>
+<body>
+
+    <div class="ajustes_u">
+
+        <!--Navbar--> 
+      <div class="Navbar" >
+
+        <div class="item" onClick={goToAjustes}>
+            <img src="../../../img/configuracion.png" alt="casa" class="" />
+            <p>Ajustes</p>
+        </div>
+        <div class="item" onClick={goToInicio}>
+
+            <img src="../../../img/casas.png" alt="casa" class="" />
+            <p>Inicio</p>
+        </div>
+
+        <div class="item" onClick={goToNotificaciones}>
+            <img src="../../../img/notificacion.png" alt="casa" class="" />
+            <p>Notificaciones</p>
+        </div>
+
+      </div>
+        
+                <div class="body">
+                    <div class="menu">
+                      <p onClick={goToCuenta}>Cuenta</p>
+                      <p onClick={goToMesas}>Mesas</p>
+                      <p onClick={goToInicio}>Cerrar Sesion</p>
+                    </div>
+                </div>
+        
+            </div>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  width: 0vw;
+  height: 0vh;
+  margin: 0;
+}
+
+/*Fente: font-family: "Inter", sans-serif;*/
+.error {
+  width: calc(100vw - 17px);
+  
+  min-height: 100vh;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(rgb(97, 97, 97), rgb(34, 34, 34));
+}
+.error .body {
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.error .body .error {
+  width: 50%;
+  height: 90%;
+  background: none;
+}
+.error .body .error .erno {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+}
+.error .body .error .hora {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64, 255, 50);
+}
+.error .body .error .boton {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-style: none;
+  border-radius: 15px;
+}
+.error .body .imagen {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+}
+.error .body .imagen img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(200%);
+}

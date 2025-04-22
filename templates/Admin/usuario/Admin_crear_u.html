@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Volver.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Admin/usuario/Editar_u.css') }}">
+
+    <title>Editar Usuario</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!--Volver-->
+        <div class="header_volver">
+            <a class="volver"  href="{{ url_for('admin_bp.volver') }}">
+                <img src="{{ url_for('static', filename='img/flecha.png')}} " alt=""/>
+            </a>
+        </div>
+
+        <div class="body">
+
+            <div class="datos">
+                <div class="p1">
+                    <img src="{{ url_for('static', filename='img/Iconos_perfil/usuario.png')}} " alt="" />
+                    <p>Travolta</p>
+                </div>    
+                    <form class="p2" method="POST" action="">
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre"  />
+                        <label>Correo:</label>
+                        <input type="email" name="correo" />
+
+                        <label>Contrasena: </label>
+                        <input type="text" name="contrasena" />
+                        
+                        <button class="boton" type="submit">Crear</button>
+                    </form>
+                    
+            </div>
+        </div>
+    </div>    
+</body>
+
+</html>

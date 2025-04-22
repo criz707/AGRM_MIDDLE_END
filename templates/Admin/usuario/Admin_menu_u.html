@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/logo.png') }}">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/Admin/usuario/Admin_menu_u.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/Volver.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/Search_bar.css') }}">
+        
+        
+    <title>Menu edicio Usuario</title>
+</head>
+<body>
+
+    <div class="container">
+        <!--Volver-->
+        <div class="header_volver">
+            <a class="volver"  href="{{ url_for('admin_bp.volver_crud') }}">
+                <img src="{{ url_for('static', filename='img/flecha.png')}} " alt=""/>
+            </a>
+        </div>
+
+        <!--Search bar-->
+        <div class="searchbar">
+            <input type="text" placeholder='Buscar'/>
+            <button>
+                Buscar
+            </button>
+        </div>
+
+        <div class="body">
+
+           
+            {% for perfil in usuarios %}
+                <a class="target" href="{{ url_for('admin_bp.perfil_usuario', id_perfil=perfil['ID_PERFIL']) }}">
+                    <img src="{{ url_for('static', filename='img/Iconos_perfil/usuario.png') }}" alt="" />
+                    <h3>{{ perfil['NOMBRE'] }}</h3>
+                </a>
+            {% endfor %}
+            <a href ='{{url_for('admin_bp.crear_usuario')}}' class="target" >
+                <div class="plus">+</div>
+                <h3>Agregar usuario</h3>
+            </a>
+
+                
+            
+        </div>
+    </div>
+    
+</body>
+</html>
